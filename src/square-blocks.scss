@@ -23,7 +23,7 @@
     @include border-box;
 }
 
-.square, .square-block {
+.square, .row {
     @extend %clearfix;
 }
 

@@ -1,11 +1,11 @@
-.square, .square-block {
+.square, .row {
   *zoom: 1;
 }
-.square:before, .square-block:before, .square:after, .square-block:after {
+.square:before, .row:before, .square:after, .row:after {
   content: " ";
   display: table;
 }
-.square:after, .square-block:after {
+.square:after, .row:after {
   clear: both;
 }
 
