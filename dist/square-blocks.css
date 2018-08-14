@@ -1,0 +1,77 @@
+.square, .square-block {
+  *zoom: 1;
+}
+.square:before, .square-block:before, .square:after, .square-block:after {
+  content: " ";
+  display: table;
+}
+.square:after, .square-block:after {
+  clear: both;
+}
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 76em) {
+  .square {
+    width: 97.77777%;
+    max-width: 72em;
+  }
+
+  .vert-1 {
+    width: 8.3333333333%;
+  }
+
+  .vert-2 {
+    width: 16.6666666667%;
+  }
+
+  .vert-3 {
+    width: 25%;
+  }
+
+  .vert-4 {
+    width: 33.3333333333%;
+  }
+
+  .vert-5 {
+    width: 41.6666666667%;
+  }
+
+  .vert-6 {
+    width: 50%;
+  }
+
+  .vert-7 {
+    width: 58.3333333333%;
+  }
+
+  .vert-8 {
+    width: 66.6666666667%;
+  }
+
+  .vert-9 {
+    width: 75%;
+  }
+
+  .vert-10 {
+    width: 83.3333333333%;
+  }
+
+  .vert-11 {
+    width: 91.6666666667%;
+  }
+
+  .vert-12 {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=square-blocks.css.map */
