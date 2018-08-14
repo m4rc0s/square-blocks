@@ -6,7 +6,8 @@
 
 %clearfix {
     *zoom: 1;
-    &:before, &:after {
+    &:before,
+    &:after {
         content: " ";
         display: table;
     }
@@ -23,8 +24,21 @@
     @include border-box;
 }
 
-.square, .row {
+.square {
+    width: 100%;
+    margin: 0 auto;
     @extend %clearfix;
+}
+
+.row {
+    @extend %clearfix;
+}
+
+[class*='vert-'] {
+    float: left;
+    padding: 1em;
+    width: 100%;
+    min-height: 1px;
 }
 
 // breakpoint for desktop and note
@@ -33,14 +47,9 @@
         width: 97.77777%;
         max-width: 72em;
     }
-
     @for $i from 1 through 12 {
         .vert-#{$i} {
             width: 100% / 12 * $i;
         }
     }
-
 }
-
-
-
