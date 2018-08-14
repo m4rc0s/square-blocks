@@ -8,6 +8,10 @@ It **does exactly the same of others Grid Systems** do, but with different names
 It's simple and clean version developed to use in an specific project, and to study Sass.
 The future is to improve this.
 
+### TODO
+* Move mixin and extend to another scss file;
+* Define necessary variables;
+
 ### Contribute
 
 Feel free to contribute with, or fork it, or simple ctrl+c and ctrl+v the CSS in your main stylesheet to have the benefit of using Grid Based layout;
