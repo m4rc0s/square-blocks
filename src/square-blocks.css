@@ -1,0 +1,35 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto !important;
+}
+
+.square {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/** Clearfix **/
+
+.square:after,
+.hor:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+[class*='vert-']{
+    float: left;
+    padding: 1em;
+    width: 100%;
+    min-height: 1px;
+}
